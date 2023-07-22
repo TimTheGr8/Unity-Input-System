@@ -1,0 +1,34 @@
+{
+    "name": "ColorChange",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "280c90fc-5328-4420-93be-60a64a2e7494",
+            "actions": [
+                {
+                    "name": "ChangeColor",
+                    "type": "Button",
+                    "id": "c83c2cd0-da6c-4b61-a6e1-ef76dfe534a9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c5c7ae63-7239-4e03-951a-17ea48688705",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeColor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
