@@ -2,13 +2,13 @@
     "name": "Player-Inputs",
     "maps": [
         {
-            "name": "Player",
+            "name": "Dog",
             "id": "71d38f8b-c48c-46f6-bf6b-18df64edd186",
             "actions": [
                 {
-                    "name": "Fire",
+                    "name": "Bark",
                     "type": "Button",
-                    "id": "11aeab29-6161-4d62-8fbf-923b1785007f",
+                    "id": "7ffc0087-e909-4212-8b84-3390cb881d8b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -43,28 +43,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "05a0461f-d9b3-4e3f-b02a-758c53c0599b",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7bb037b2-cd4d-4ec5-a0b7-b4fc4539e946",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "2D Vector",
                     "id": "8039ca58-8a96-4915-987c-8317511ba35b",
@@ -163,6 +141,56 @@
                     "action": "Die",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "010badd9-9127-419d-a564-4ac959ac8d0b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bark",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player",
+            "id": "9bd12de6-ee5d-4ed0-b9f6-b5a9e7fdb9ed",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "aea61410-4adc-417d-a312-7931f9a35ec3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65ea11db-7325-4424-b46d-d6f148034bf7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3e41b6f-c00f-4e33-b742-bb312db0aa36",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
