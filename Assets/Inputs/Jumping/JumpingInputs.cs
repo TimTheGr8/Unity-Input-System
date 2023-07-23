@@ -33,7 +33,7 @@ public partial class @JumpingInputs: IInputActionCollection2, IDisposable
                     ""id"": ""77da7b12-467f-41bf-8eb0-111889fe180b"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Hold(duration=1,pressPoint=0.2)"",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 }
             ],
